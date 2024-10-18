@@ -2822,10 +2822,13 @@ h6 {
 
 /* ---------- Container for the orbiting circles animation ---------- */
 
+#outer-orbit-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #circle-orbit-container {
 	position: relative;
-	top: 10px;
-	left: 150px;
 	height: 300px;
 	width: 300px;
 }
