@@ -2852,7 +2852,7 @@ h6 {
 	left: 75px;
 	width: 150px;
 	height: 150px;
-	border: 2px #000000 dashed;
+	border: 2px #000000 solid;
 	border-radius: 100%;
 	-webkit-animation: spin-right 10s linear infinite;
 	animation: spin-right 10s linear infinite;
@@ -2878,7 +2878,7 @@ h6 {
 	left: 37.5px;
 	width: 225px;
 	height: 225px;
-	border: 2px #000000 dashed;
+	border: 2px #000000 solid;
 	border-radius: 100%;
 	-webkit-animation: spin-right 15s linear infinite;
 	animation: spin-right 15s linear infinite;
@@ -2904,7 +2904,7 @@ h6 {
 	left: 3px;
 	width: 294px;
 	height: 294px;
-	border: 2px #000000 dashed;
+	border: 2px #000000 solid;
 	border-radius: 100%;
 	-webkit-animation: spin-right 20s linear infinite;
 	animation: spin-right 20s linear infinite;
