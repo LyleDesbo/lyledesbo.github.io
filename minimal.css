@@ -2835,9 +2835,8 @@ h6 {
 
 #center-star {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 120px;
+	left: 120px;
 	height: 60px;
 	width: 60px;
 	border-radius: 100%;
