@@ -2591,7 +2591,7 @@ body {
 	transition: transform 1s ease-in-out;
 }
 
-[data-inviewport="progress-bar-animation"].is-InViewport > * {
+[data-inviewport="progress-bar-animation"].is-inViewport > * {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
