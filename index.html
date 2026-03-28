@@ -18,42 +18,34 @@
 				overflow: hidden;
 			}
 
-			#stars {
+			#stars, #stars2 {
 				position: absolute;
 				top: 0;
 				left: 0;
 				width: 1px;
 				height: 1px;
 				background: transparent;
+			}
 
+			#stars {
 				animation: animStar 50s linear infinite;
 			}
 
-			#stars:after {
-				content: " ";
-				position: absolute;
+			#stars2 {
 				top: 2000px;
-				width: 1px;
-				height: 1px;
-				background: transparent;
-							}
-
-			@keyframes animStar {
-				from {
-					transform: translateY(0px);
-				}
-				to {
-					transform: translateY(-2000px);
-				}
+				animation: animStar 50s -50s linear infinite;
 			}
 
-			/* Ensure content is positioned above stars */
+			@keyframes animStar {
+				from { transform: translateY(0px); }
+				to   { transform: translateY(-2000px); }
+			}
+
 			.title, .jumbotron, .container {
 				position: relative;
 				z-index: 1;
 			}
 
-			/* Additional styles for the hero section */
 			#home {
 				position: relative;
 			}
@@ -82,11 +74,12 @@
 			>
 			<div id="stars-container">
 				<div id="stars"></div>
+				<div id="stars2"></div>
 			</div>
 				<div class="text-center container">
 					<img src="img/PPWhite.png" width="100" height="100" />
 					<h1 class="display-1">Lyle Desborough</h1>
-					<div class="Typist lead typist">MSc Space Systems Engineering Student</div>
+					<div class="Typist lead typist">MSc Space Systems Engineering Graduate | First-Class Mathematics Graduate | Space Systems & Astrodynamics</div>
 					<div class="p-5">
 						<a
 							target="_blank"
@@ -335,6 +328,13 @@
 				<div class="container">
 					<h2 class="display-4 pb-3 text-center">Get In Touch</h2>
 					<p class="lead text-center pb-3">
-						I am now studying MSc Space Systems Engineering! If you have any questions, or if you just want
+												I am now studying MSc Space Systems Engineering! If you have any questions, or if you just want
 						to say hi, please feel free to email me at:
-						<a href="/cdn-cgi/l/email-protection#dab6a3b6bfbebfa9b8b5a8b5afbdb29ab3b9b6b5afbef4b9b5b7"><span class="__cf_email__" data-cfemail="167a6f7a737273657479647963717e567f757a79637238
+						<a href="mailto:lyledesborough@icloud.com">lyledesborough@icloud.com</a>.
+					</p>
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
